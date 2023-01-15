@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+<body class="page">
+  <main>
+    <h1 class="visually-hidden">Notifications page</h1>
+    <section class="notifications">
+      <header class="notifications__header">
+        <h2 class="notifications__title">Notifications</h2>
+        <span class="notifications__counter">3</span>
+        <button class="notifications__read-button" type="button">Mark all as read</button>
+      </header>
+      <ul class="notifications__list">
+        <li class="notifications__item notifications__item--new">
+          <img
+            class="notifications__image"
+            src="./images/avatar-mark-webber.webp"
+            alt="Mark Webber's avatar"
+            width="39"
+            height="39"
+          >
+          <p class="notifications__message">
+            <a class="notifications__link notifications__link--name" href="#">Mark Webber</a>
+            reacted to your recent post
+            <a class="notifications__link" href="#">My first tournament today!</a>
+          </p>
+          <time datetime="2023-01-15" class="notifications__time">1m ago</time>
+        </li>
+        <li class="notifications__item notifications__item--new">
+          <img
+            class="notifications__image"
+            src="./images/avatar-angela-gray.webp"
+            alt="Angela Gray's avatar"
+            width="39"
+            height="39"
+          >
+          <p class="notifications__message">
+            <a class="notifications__link notifications__link--name" href="#">Angela Gray</a>
+            followed you
+          </p>
+          <time datetime="2023-01-15" class="notifications__time">5m ago</time>
+        </li>
+        <li class="notifications__item notifications__item--new">
+          <img
+            class="notifications__image"
+            src="./images/avatar-jacob-thompson.webp"
+            alt="Jacob Thompson's avatar"
+            width="39"
+            height="39"
+          >
+          <p class="notifications__message">
+            <a class="notifications__link notifications__link--name" href="#">Jacob Thompson</a>
+            has joined your group
+            <a class="notifications__link notifications__link--group" href="#">Chess Club</a>
+          </p>
+          <time datetime="2023-01-15" class="notifications__time">1 day ago</time>
+        </li>
+        <li class="notifications__item">
+          <img
+            class="notifications__image"
+            src="./images/avatar-rizky-hasanuddin.webp"
+            alt="Rizky Hasanuddin's avatar"
+            width="39"
+            height="39"
+          >
+          <p class="notifications__message">
+            <a class="notifications__link notifications__link--name" href="#">Rizky Hasanuddin</a>
+            sent you a private message
+          </p>
+          <time datetime="2023-01-15" class="notifications__time">5 days ago</time>
+          <a class="notitifications__content-message" href="#">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+          </a>
+        </li>
+        <li class="notifications__item notifications__item--image">
+          <img
+            class="notifications__image"
+            src="./images/avatar-kimberly-smith.webp"
+            alt="Kimberly Smith's avatar"
+            width="39"
+            height="39"
+          >
+          <p class="notifications__message">
+            <a class="notifications__link notifications__link--name" href="#">Kimberly Smith</a>
+            commented on your picture
+          </p>
+          <time datetime="2023-01-15" class="notifications__time">1 week ago</time>
+          <a class="notifications__content-link" href="#">
+            <img
+              class="notifications__content-image"
+              src="./images/image-chess.webp"
+              alt=""
+              width="39"
+              height="39"
+            >
+            <span class="visually-hidden">Link to your picture</span>
+          </a>
+        </li>
+        <li class="notifications__item">
+          <img
+            class="notifications__image"
+            src="./images/avatar-nathan-peterson.webp"
+            alt="Nathan Peterson's avatar"
+            width="39"
+            height="39"
+          >
+          <p class="notifications__message">
+            <a class="notifications__link notifications__link--name" href="#">Nathan Peterson</a>
+            reacted to your recent post
+            <a class="notifications__link" href="#">5 end-game strategies to increase your win rate</a>
+          </p>
+          <time datetime="2023-01-15" class="notifications__time">2 weeks ago</time>
+        </li>
+        <li class="notifications__item">
+          <img
+            class="notifications__image"
+            src="./images/avatar-anna-kim.webp"
+            alt="Anna Kim's avatar"
+            width="39"
+            height="39"
+          >
+          <p class="notifications__message">
+            <a class="notifications__link notifications__link--name" href="#">Anna Kim</a>
+            left the group
+            <a class="notifications__link notifications__link--group" href="#">Chess Club</a>
+          </p>
+          <time datetime="2023-01-15" class="notifications__time">2 weeks ago</time>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
